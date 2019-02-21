@@ -1,0 +1,22 @@
+{
+  "name": "start-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "npx watchify src/index.js -o build/index.js",
+    "build": "npx browserify src/index.js -o build/index.js"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "browserify": "^16.2.3",
+    "watchify": "^3.11.0",
+    "eslint": "^5.9.0",
+    "eslint-plugin-jest": "^22.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "author": "Oussama Hamdaoui <oussamahamdaoui@live.fr>",
+  "license": "MIT"
+}
